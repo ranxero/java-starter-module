@@ -22,8 +22,8 @@ public class Main {
 		
 		logger.trace("trace logging");
 		logger.warn("warn logging");
-        logger.error("error logging");
-        logger.fatal("fatal logging");
+		logger.error("error logging");
+		logger.fatal("fatal logging");
 	}
 
 }
