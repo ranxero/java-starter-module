@@ -2,34 +2,34 @@
 <modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>cs.edu.starter</groupId>
-    	<artifactId>java-starter-module</artifactId>
-    	<version>0.0.1</version>
+		<artifactId>java-starter-module</artifactId>
+		<version>0.0.1</version>
   	</parent>
   	<artifactId>java-starter-1</artifactId>
   
   	<build>
 		<plugins>
-     		<plugin>
-         		<artifactId>maven-assembly-plugin</artifactId>
-         		<executions>
-             		<execution>
-                		<phase>package</phase>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
 						<goals>
-                    		<goal>single</goal>
-                  		</goals>
-              		</execution>
-          		</executions>
-          		<configuration>
-              		<archive>
-                   		<manifest>
-                    		<mainClass>cs.edu.starter.starter1.Main</mainClass>
-                    	</manifest>
-             		</archive>
-               		<descriptorRefs>
-                   		<descriptorRef>jar-with-dependencies</descriptorRef>
-              		</descriptorRefs>
-           		</configuration>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>cs.edu.starter.starter1.Main</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
  			</plugin>
 		</plugins>
-</build>
+	</build>
 </project>
