@@ -58,7 +58,7 @@ public class Starter1Test {
 	}
 	
 	@Test
-	public void delegateThrowsException() {
+	public void testDelegateThrowsException() {
 	    assertThrows(BitsAreNullException.class,
 	            ()->{
 	            	realDelegate.converstBitsToDecimal(null);
