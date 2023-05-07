@@ -24,6 +24,12 @@
 	    <artifactId>log4j-core</artifactId>
 	    <version>${apache.log4j2.version}</version>
 	</dependency>
+	<dependency>
+	    <groupId>org.mockito</groupId>
+	    <artifactId>mockito-junit-jupiter</artifactId>
+	    <version>5.3.1</version>
+	    <scope>test</scope>
+	</dependency>
    </dependencies>
    
    <modules>
