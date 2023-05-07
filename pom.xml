@@ -36,5 +36,6 @@
 	   
 	<modules>
 		<module>java-starter-1</module>
+		<module>java-starter-2</module>
 	</modules>
 </project>
