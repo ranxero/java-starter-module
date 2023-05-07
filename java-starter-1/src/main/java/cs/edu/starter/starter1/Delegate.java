@@ -19,7 +19,7 @@ public class Delegate {
 
 	public int converstBitsToDecimal(int[] bits) throws BitsAreNullException {
 		if (bits==null) {
-			throw new BitsAreNullException("Bits are null");
+			throw new BitsAreNullException("bits are null");
 		}
 		int res = 0;
 		int cnt = bits.length-1;
