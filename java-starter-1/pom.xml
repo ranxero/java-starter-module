@@ -9,7 +9,7 @@
   
   	<build>
 		<plugins>
-    		<plugin>
+     		<plugin>
          		<artifactId>maven-assembly-plugin</artifactId>
          		<executions>
              		<execution>
@@ -20,17 +20,16 @@
               		</execution>
           		</executions>
           		<configuration>
-               		<archive>
+              		<archive>
                    		<manifest>
                     		<mainClass>cs.edu.starter.starter1.Main</mainClass>
-                   		</manifest>
-               		</archive>
+                    	</manifest>
+             		</archive>
                		<descriptorRefs>
                    		<descriptorRef>jar-with-dependencies</descriptorRef>
               		</descriptorRefs>
-              		<appendAssemblyId>false</appendAssemblyId>
-         		</configuration>
+           		</configuration>
  			</plugin>
 		</plugins>
-	</build>
+</build>
 </project>
