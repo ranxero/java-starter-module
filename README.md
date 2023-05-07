@@ -7,3 +7,8 @@
 - junit5 and mockito
 - Class main method
 - instanciating objects 
+
+## java-starter-2
+- abstract classes
+- interfaces
+- polymorphism
